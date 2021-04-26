@@ -76,7 +76,7 @@ def create(clipboard_name, key: str):
 
     logging.info(
         f"To join to this clipboard from another machine use:\n"
-        f"remote_clipboard --name {clipboard_name}, --key {key.decode()}")
+        f"remote-clipboard --name {clipboard_name} --key {key.decode()}")
 
     info = ConnectionInfo(
         # this is a free and public mqtt server
