@@ -6,7 +6,7 @@ does not see the content shared between the machines.
 
 Usage
 -----
-Install and start the proxy server:
+Install and start a new shared clipboard
 ```shell script
 $ git clone https://github.com/gibizer/remote-clipboard-mqtt.git
 $ cd remote-clipboard-mqtt
